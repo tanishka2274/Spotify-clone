@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify_Clone</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Your Library</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span>She's all i wanna be</span>
+                    <span class="songlistplay"><span class="timestamp">03:27 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="0" ></i><i class="fa-regular fa-heart fa-xl  likedsong"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span>Euphoria</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="1"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span>Levitating</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="2"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span>Khwaab</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="3"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span>Control</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="4"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span>I like me better</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="5"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span>Slow motion</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="6"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/8.jpg" alt="1">
+                    <span>Mon ami</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="7"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/9.jpg" alt="1">
+                    <span>Filter</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="8"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span>Kabhi kabhi</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play fa-xl songitemplay" id="9"></i><i class="fa-regular fa-heart fa-xl likedsong"></i></span></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0"  max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-2xl" id="previous"></i>
+            <i class="fa-regular fa-circle-play fa-2xl " id="masterplay"></i>
+            <i class="fa-solid fa-forward-step fa-2xl" id="next"></i>
+        </div>
+        <div class="songinfo">
+           <span id="mastersongname"></span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/18ee89e867.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
